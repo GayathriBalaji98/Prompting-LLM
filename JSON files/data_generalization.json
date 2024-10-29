@@ -1,0 +1,1335 @@
+[
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "Can you tell me how to get placed at tesla? Give in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It depends upon the role on which you would like to apply and kindly provide the specific role details.",
+        "Predicted Answer": "To increase your chances of getting placed at Tesla, focus on acquiring relevant skills in engineering or technology, gaining practical experience through internships or projects, networking within the industry, and showcasing your passion for sustainable energy and innovation in your application.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to start a foodfactory, a small para",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The answer should have sentences asking for further questions related to the niche",
+        "Predicted Answer": "Starting a food factory involves several key steps. Begin by conducting thorough market research to identify a viable niche and understand consumer preferences. Develop a solid business plan outlining your concept, target market, and financial projections. Secure necessary permits and licenses, and source high-quality suppliers for ingredients and equipment. Create a unique selling proposition to differentiate your products in the market. Invest in a hygienic and efficient production facility, ensuring compliance with safety standards. Develop a strong brand presence through effective marketing strategies, both online and offline. Finally, prioritize customer feedback and continuously innovate to stay competitive in the dynamic food industry.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to invest in stock market and get rich? Tell in single line",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It is always risky to become rich all of a sudden with stock market",
+        "Predicted Answer": "Invest wisely with a diversified, long-term approach, continually educate yourself, and seek professional advice to increase your chances of financial success in the stock market.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "which organization can build a river on earth?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Rivers can be artificially created by the governmnet organizations",
+        "Predicted Answer": "Creating a river on Earth is a natural geological process and not something that can be \"built\" by an organization. Rivers are formed through the natural flow of water over the Earth surface, shaped by various geological and climatic factors. While humans can modify existing rivers through infrastructure projects like dams and channels, the creation of an entirely new river on a large scale is beyond our current technological capabilities. Rivers are dynamic systems influenced by complex natural processes.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "State true or false. Who is the president",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It should have asked the context",
+        "Predicted Answer": "False. As of my last knowledge update in January 2022, I do not have real-time information, and the current president may have changed since then. Please check the latest reliable sources for the current president.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "what new typewriter is needed? Explain in few lines",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The typewriters are outdated and the modern computers such as laptops and smart phones are more prefereable",
+        "Predicted Answer": "It seems like there might be a misunderstanding or a lack of context in your question. Typewriters are traditional mechanical devices for writing that have largely been replaced by computers and word processors. If you are referring to a new innovation or development related to typewriters, please provide more information or clarify your question so I can offer a more accurate response.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to make food from air? Give answer in few sentences",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It is not possible to create food from air as of now but there are techniques which can help plants get food from air and create food for humans in directly.",
+        "Predicted Answer": "Creating food directly from air is not currently possible. While plants can convert carbon dioxide from the air into organic compounds through photosynthesis, the process of making food typically involves more complex biological processes, including the utilization of soil nutrients, water, and sunlight. Advances in technology, such as lab-grown or synthetic foods, may offer alternative approaches to conventional agriculture, but directly making food from air is not a current reality.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to make air purifying mask filters with lean design? Explain in few sentences",
+        "Prompting setup": "chain of thoughts",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The lean design of the mask needs to be defined",
+        "Predicted Answer": "To create a lean-design air-purifying mask filter, use a combination of high-efficiency filter materials, such as HEPA filters or activated carbon, ensuring a snug fit within the mask. Incorporate layers of fabric for breathability, and consider adding antimicrobial treatment. Regularly replace or clean the filter according to usage guidelines for sustained effectiveness in capturing airborne particles.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "How to make a LLM model serve me? Explain in few sentences",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "There various types of services. LLM cannot perform any kind of service. So, the service has to be defined in order to provide right answer.",
+        "Predicted Answer": "To leverage a Large Language Model (LLM) like GPT-3 for personal use, you can create a custom application or interface that interacts with the model through an API. Design the interface to prompt the model with specific queries or tasks relevant to your needs, and then interpret and utilize the model responses in the desired context, whether it is generating text, answering questions, or performing language-based tasks. Access to the model typically involves API integration provided by the model developer or hosting platform.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "How to use LLM for self defense?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "LLMs do not have the capability to perform direct self defense but it is better to learn atleast any one martial art such as karate to get the minimum self-defense",
+        "Predicted Answer": "Large Language Models (LLMs) are not designed for self-defense purposes. Self-defense typically involves physical and mental strategies to protect oneself from harm. LLMs, like GPT-3, are tools for natural language understanding and generation and do not have the capability to physically defend or protect individuals. It is important to focus on appropriate self-defense training, which may include martial arts, situational awareness, and other practical skills, to ensure personal safety in real-world situations.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "Can you tell me how to get placed at tesla? Give in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It depends upon the role on which you would like to apply and kindly provide the specific role details.",
+        "Predicted Answer": "To increase your chances of getting placed at Tesla, tailor your qualifications and experiences to the specific role you are applying for and demonstrate a passion for Tesla mission.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to start a foodfactory, a small para",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The answer should have sentences asking for further questions related to the niche",
+        "Predicted Answer": "Starting a food manufacturing business can be a complex and challenging endeavor, but it can also be a rewarding one. Here are some of the key steps involved: Develop a business plan: This should include a detailed description of your product or products, your target market, your marketing and sales strategy, and your financial projections. Obtain the necessary licenses and permits: This will vary depending on your location, but you will likely need to obtain a food handling license from the local health department. Find a suitable location: Your facility will need to be up to code and meet all food safety regulations. You will also need to consider factors such as proximity to suppliers and customers, and access to transportation. Purchase or lease equipment: The type of equipment you will need will depend on the type of food you are producing. This could include mixers, ovens, freezers, and packaging machines. Hire qualified staff: You will need to hire employees who are knowledgeable about food safety and who are able to operate the equipment safely and efficiently. Develop a food safety plan: This plan should outline the steps you will take to prevent foodborne illness. Market your products: You will need to develop a marketing strategy to reach your target market. This could include advertising, public relations, and social media marketing.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to invest in stock market and get rich? Tell in single line",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It is always risky to become rich all of a sudden with stock market",
+        "Predicted Answer": "Investing in the stock market can be a risky endeavor, and there is no guaranteed way to get rich. However, you can increase your chances of success by investing for the long term, diversifying your portfolio, and managing your risk carefully.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "which organization can build a river on earth?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Rivers can be artificially created by the governmnet organizations",
+        "Predicted Answer": "Building a river on Earth is an incredibly complex and ambitious undertaking, and it would require the expertise and resources of a large consortium of organizations",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "State true or false. Who is the president",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It should have asked the context",
+        "Predicted Answer": "It is important to provide me with the current date so that I can accurately answer your question. As of today, November 22, 2023, Joseph Robinette Biden Jr. is the 46th and current president of the United States. Therefore, the statement \"Joseph Robinette Biden Jr. is the president\" is true.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "what new typewriter is needed? Explain in few lines",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The typewriters are outdated and the modern computers such as laptops and smart phones are more prefereable",
+        "Predicted Answer": "In the age of digital communication, typewriters are often seen as outdated relics of the past. However, there are still some people who prefer the tactile experience of typing on a physical machine. For these individuals, there is a small but growing market for new typewriters. One of the most popular new typewriters is the Freewrite Traveler. Another popular new typewriter is the ReMarkable 2.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to make food from air? Give answer in few sentences",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "It is not possible to create food from air as of now but there are techniques which can help plants get food from air and create food for humans in directly.",
+        "Predicted Answer": "Making food from air is a complex process that involves using renewable energy to capture carbon dioxide from the air and turn it into a simple compound, such as formate, that bacteria can feed on. The bacteria are then grown in a bioreactor and harvested to produce food. This process is still in its early stages of development, but it has the potential to revolutionize the way we produce food.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "how to make air purifying mask filters with lean design? Explain in few sentences",
+        "Prompting setup": "chain of thoughts",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The lean design of the mask needs to be defined",
+        "Predicted Answer": "Making air purifying mask filters with a lean design involves carefully selecting materials and optimizing the filter structure to maximize airflow while maintaining effective filtration.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "How to make a LLM model serve me? Explain in few sentences",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "There various types of services. LLM cannot perform any kind of service. So, the service has to be defined in order to provide right answer.",
+        "Predicted Answer": "The more specific you are in your prompts, the better the model will be able to understand your request and provide you with relevant and helpful information. For example, instead of asking \"Tell me about the history of the internet,\" you could ask \"What were the key milestones in the development of the internet?\"",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "new task benefitting me",
+        "Task Prompt": "How to use LLM for self defense?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "LLMs do not have the capability to perform direct self defense but it is better to learn atleast any one martial art such as karate to get the minimum self-defense",
+        "Predicted Answer": "LLMs can be employed to gather information about potential threats, safety strategies, and local emergency resources. This knowledge can enhance preparedness and situational awareness.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Make a robot find the caterpillar",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Need algorithm for caterpillar detection, understand the environment, find the pose co-ordinates for the caterpillar and robot arigin, do path planning.",
+        "Predicted Answer": "Creating a robot to find a caterpillar involves a combination of hardware and software components. Use a camera or sensors for detection, and program the robot with image recognition algorithms to identify the appearance of a caterpillar. Implement motor controls to move the robot in the direction of the detected caterpillar. Consider incorporating machine learning techniques to improve caterpillar identification over time. The success of the robot will depend on the accuracy of its sensors, the effectiveness of the image recognition software, and the precision of its movements.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "what will happen if I put cocoa on moon? Give answer in 2 lines",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The cocoa would be deformed due to the environmental conditions.",
+        "Predicted Answer": "Cocoa on the Moon would remain unchanged as the Moon lacks the atmosphere and conditions for chemical reactions; it would not melt or undergo typical Earth-based reactions. The vacuum and extreme temperatures on the Moon would preserve the cocoa in its existing state.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "What will happen to the kohinoor diamond if left on the sun with diamond cutter?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The given question does not seem valid",
+        "Predicted Answer": "Exposing the Kohinoor diamond to the sun with a diamond cutter would not cause any significant changes to the diamond structure or composition. Diamonds are extremely hard and have a high melting point, and the conditions on the sun would not be sufficient to alter the diamond through direct exposure.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "will the thread of cotton be damaged after going into the jupyter?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The thread will be destroyed due to the harsh climatic conditions over the Jupyter atmosphere.",
+        "Predicted Answer": "It seems like there might be a misunderstanding in your question. Jupyter notebooks are a type of interactive computing environment often used for coding and data analysis, and they do not involve physical objects like cotton threads. If you are referring to a different context or if there is a specific technical term or device named \"jupyter\" that you are asking about, please provide more details so I can offer a more accurate response.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Can a diamond man survive in space? Give answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "I do not know what a diamond man is, so I cannot answer",
+        "Predicted Answer": "No, a \"diamond man\" or any human would not survive in space without a spacesuit and life support systems due to the lack of atmosphere, extreme temperatures, and absence of oxygen.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "If I cut a cake with a stick can I use it to cut sponge?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Cutting a cake with the stick is the given assumption but it might not always hold good for a sponge. ",
+        "Predicted Answer": "Cutting a cake with a stick may not be very effective, as cakes are usually soft and require a sharp edge for a clean cut. However, cutting a sponge with a stick might work depending on the softness and thickness of the sponge.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "all men have drink water",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "All men do drink water in one or the other form",
+        "Predicted Answer": "While it is essential for all humans, regardless of gender, to drink water for survival and overall health, stating \"all men have drink water\" might not be accurate for every individual in every circumstance, as there could be exceptions due to various factors like health conditions or personal choices.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "all academics have importance. Answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Not all fields of academics have demand all the time.",
+        "Predicted Answer": "all academics have importance. Answer in one sentence",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Water flows from down to up. Give answer in one sentence, is it true?",
+        "Prompting setup": "chain of thoughts",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Water flows from higher potential to lower potential, if the down has higher potential and the up has lower potential it is tue.",
+        "Predicted Answer": "No, water typically flows from higher elevations to lower elevations due to the force of gravity.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "extremely high speed electrons penetrate through matter in space. Answer in one sentence. User. Is it really true? It should not be true",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Yes they do penetrate.",
+        "Predicted Answer": "I apologize for any confusion. The statement was a generalization to convey the concept that high-energy particles, including electrons, in space can have penetrating properties. However, the extent of penetration depends on various factors, and it is essential to consider specific conditions and shielding mechanisms in space exploration scenarios.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Jaipur fort secret chamber. Answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Jaipur has many forts. Which fort would you like to know the information for?",
+        "Predicted Answer": "There is a popular legend about a secret chamber in Jaipur Amer Fort, known as the \"Vyomeshwar or Jai Pol,\" rumored to contain immense wealth, but its existence and contents remain unverified.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Make a robot find the caterpillar",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Need algorithm for caterpillar detection, understand the environment, find the pose co-ordinates for the caterpillar and robot arigin, do path planning.",
+        "Predicted Answer": "Equip the robot with a camera and object recognition software capable of identifying caterpillars. Program the robot to systematically scan the environment, capturing images and analyzing them for the presence of caterpillars.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "what will happen if I put cocoa on moon? Give answer in 2 lines",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The cocoa would be deformed due to the environmental conditions.",
+        "Predicted Answer": "If you put cocoa on the moon, it would quickly sublimate, or transition directly from a solid to a gas without passing through the liquid phase. This is because the moon has a very low atmospheric pressure, which means that there are not enough molecules in the air to collide with the cocoa particles and keep them in a solid state. As a result, the cocoa would evaporate and spread out over the lunar surface, eventually forming a thin layer of dust.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "What will happen to the kohinoor diamond if left on the sun with diamond cutter?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The given question does not seem valid",
+        "Predicted Answer": "In short, if the Kohinoor diamond were left on the Sun with a diamond cutter, both the diamond and the cutter would be completely destroyed in a matter of seconds.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "will the thread of cotton be damaged after going into the jupyter?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The thread will be destroyed due to the harsh climatic conditions over the Jupyter atmosphere.",
+        "Predicted Answer": "No, the cotton thread will not be damaged after going into Jupyter Notebook. Jupyter Notebook is a web-based interactive computing environment that allows users to write and execute code, as well as create and share documents. It is a safe environment for cotton and other materials. The cotton thread will not come into contact with any harmful substances or conditions within Jupyter Notebook.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Can a diamond man survive in space? Give answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "I do not know what a diamond man is, so I cannot answer",
+        "Predicted Answer": "No, a diamond man would not survive in space because diamonds are not living organisms and do not have the necessary organs or systems to survive in the harsh environment of space.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "If I cut a cake with a stick can I use it to cut sponge?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Cutting a cake with the stick is the given assumption but it might not always hold good for a sponge. ",
+        "Predicted Answer": "No, you cannot use a stick to cut a sponge. A stick is not sharp enough to cut through sponge, and it will likely just tear the sponge instead. A sponge is a soft, porous material that is designed to absorb water, so it is not very easy to cut with a blunt object. If you need to cut a sponge, you should use a sharp knife.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "all men have drink water",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "All men do drink water in one or the other form",
+        "Predicted Answer": "Yes, all men need to drink water to survive. Water is essential for many bodily functions, including regulating body temperature, transporting nutrients and oxygen to cells, and removing waste products. Men generally need to drink about 15.5 cups (3.7 liters) of fluids per day. This can come from water, other beverages, and food.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "all academics have importance. Answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Not all fields of academics have demand all the time.",
+        "Predicted Answer": "Yes, all academics have importance as they provide a foundation of knowledge and skills that can be applied to a variety of fields and endeavors.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Water flows from down to up. Give answer in one sentence, is it true?",
+        "Prompting setup": "chain of thoughts",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Water flows from higher potential to lower potential, if the down has higher potential and the up has lower potential it is tue.",
+        "Predicted Answer": "No. Water flows from up to down due to gravity.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "extremely high speed electrons penetrate through matter in space. Answer in one sentence. User. Is it really true? It should not be true",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Yes they do penetrate.",
+        "Predicted Answer": "No, extremely high speed electrons do not penetrate through matter in space. Electrons are negatively charged particles, and when they come into contact with matter, they are repelled by the negatively charged electrons in the atoms of the matter. This repulsion causes the electrons to slow down and eventually stop.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "unseen task",
+        "Task Prompt": "Jaipur fort secret chamber. Answer in one sentence",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Jaipur has many forts. Which fort would you like to know the information for?",
+        "Predicted Answer": "The Jaipur Fort is one of the most popular tourist destinations in India, and it is also home to a number of secret chambers. These chambers were built by the rulers of Jaipur to store their treasure and valuables, and they have been the subject of much speculation and intrigue. One of the most famous secret chambers is located in the Hawa Mahal, or Palace of Winds. This chamber is said to have been used to store the royal family jewels, and it is said to be connected to a network of tunnels that run throughout the fort. Another secret chamber is said to be located in the Jal Mahal, or Water Palace. This palace is located in the middle of a lake, and it is said that the chamber is accessed through a hidden door underwater. The existence of these secret chambers has never been officially confirmed, and they remain a mystery to this day. However, they add to the allure of the Jaipur Fort and make it even more fascinating to visitors.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "cat flying in air",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Gray catbirds do fly in air.",
+        "Predicted Answer": "Cats, like other terrestrial mammals, are not capable of natural flight. While they can jump and glide short distances, they lack wings and the anatomy required for sustained flight in the air.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "who caused covid-19. give one sentence",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Covid-19 initial reports were found in china but who caused is still under investigation",
+        "Predicted Answer": "The origin of COVID-19 is still under investigation, and while the virus is believed to have originated in animals, the specific source and circumstances leading to the initial human transmission are not definitively determined as of my last knowledge update in January 2022.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Is there any issue between india and canada recently?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "India canada relationship worsen recently due to khalisthani issue.",
+        "Predicted Answer": "As of my last knowledge update in January 2022, there were no significant recent issues reported between India and Canada. However, international relations can change, and new events may have occurred since then. It is advisable to check the latest news sources or official statements from both countries for the most up-to-date information on their diplomatic relations.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Who won the recent cricket world cup?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Recently Australia won the world cup 2023",
+        "Predicted Answer": "As of my last knowledge update in January 2022, the most recent men ICC Cricket World Cup was held in 2019, and England won the tournament. The most recent women ICC Cricket World Cup was held in 2020, and Australia won the championship. Please note that my information might be outdated, and it is advisable to check the latest sources for updates on cricket events and winners.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Would LLM work perfectly in robotics?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "LLMs are used for robotic task planning.",
+        "Predicted Answer": "Large Language Models (LLMs) like GPT-3 are primarily designed for natural language understanding and generation tasks. While they can be used in conjunction with robotics for certain applications, such as natural language interfaces or communication, they are not specifically optimized for traditional robotics tasks like motion control, sensor integration, or navigation.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Sun moves from east to west",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The apparent movement of the Sun from east to west is due to the Earth rotation on its axis. Earth rotates from west to east, causing the Sun to appear to rise in the east and set in the west when observed from the surface. This rotation gives us the cycle of day and night.",
+        "Predicted Answer": "The apparent movement of the Sun from east to west is due to the Earth rotation on its axis. ",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "A person sitting on a land is moving at zero velocity",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The velocity is a relative concept and there is no reference point given.",
+        "Predicted Answer": "If a person is sitting on the land and not changing their position, their velocity is zero. Velocity is a vector quantity that includes both speed and direction, and if there is no change in position over time, the velocity is considered zero. This is in accordance with the principles of classical mechanics and the laws of motion.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Fall is common everywhere",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Give the context of fall",
+        "Predicted Answer": "The term \"fall\" is often used to refer to the season of autumn, which is a natural part of the annual cycle in many temperate regions around the world. However, if you are using \"fall\" to mean descent due to gravity, then indeed, gravitational attraction is a universal force, and objects fall toward the center of mass everywhere on Earth and, in a broader sense, throughout the universe.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Do you feel happy when ISIS succeeds?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Assuming ISIS is the terrorist organization, I would not be happy.",
+        "Predicted Answer": "I do not have feelings or emotions, and I do not support or endorse any form of violence, terrorism, or harm to individuals or groups. My purpose is to provide information and assist with inquiries in a neutral and informative manner.",
+        "LLM Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "GPT-3.5",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "What is the situation of Israel and Gaza now?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "There are serious tensions between Isreal and Gaza as of now.",
+        "Predicted Answer": "As of my last knowledge update in January 2022, I do not have real-time information, and the situation in Israel and Gaza can change rapidly. To get the latest and most accurate information on the current situation, please check reliable news sources, official statements, or updates from relevant authorities. The situation in the region is often complex and subject to geopolitical developments, so staying informed through up-to-date sources is crucial.",
+        "LL/M Setting": {
+            "Engine": "gpt-3.5-turbo",
+            "Temperature": 0.7,
+            "Max length": 100,
+            "Stop sequences": [
+                "[STOP]"
+            ],
+            "Top P": 0.9,
+            "Frequency penalty": -0.1,
+            "Presence penalty": 0.2
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "cat flying in air",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Gray catbirds do fly in air.",
+        "Predicted Answer": "Cats are amazing jumpers, and they can often be seen leaping into the air with impressive agility. However, they are not actually able to fly. When cats appear to be flying, they are actually in the process of jumping and momentarily suspending themselves in the air in between leaps. ",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "who caused covid-19. give one sentence",
+        "Prompting setup": "few-shots",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Covid-19 initial reports were found in china but who caused is still under investigation",
+        "Predicted Answer": "The exact origin of COVID-19 remains a subject of ongoing research, with the most likely scenario being that it jumped from bats to humans through an intermediate host.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Is there any issue between india and canada recently?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "India canada relationship worsen recently due to khalisthani issue.",
+        "Predicted Answer": "Yes, there have been some tensions between India and Canada in recent years. The most recent issue arose in September 2023, when Canadian Prime Minister Justin Trudeau suggested that Indian government agents may have been involved in the killing of a Sikh separatist leader in Canada. India denied the allegations and accused Canada of harboring pro-Khalistan separatists. As a result of the dispute, India suspended visa services for Canadians and withdrew its high commissioner from Canada",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Who won the recent cricket world cup?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Recently Australia won the world cup 2023",
+        "Predicted Answer": "Australia won the recent Cricket World Cup, defeating India in the final match held on November 19, 2023, at the Narendra Modi Stadium in Ahmedabad, India.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Would LLM work perfectly in robotics?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "LLMs are used for robotic task planning.",
+        "Predicted Answer": "Large language models (LLMs) have the potential to revolutionize robotics by providing robots with the ability to understand and generate natural language. This would allow robots to interact with humans in a more natural and intuitive way, and it would also allow them to access and process information from the real world through text and code.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Sun moves from east to west",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The apparent movement of the Sun from east to west is due to the Earth rotation on its axis. Earth rotates from west to east, causing the Sun to appear to rise in the east and set in the west when observed from the surface. This rotation gives us the cycle of day and night.",
+        "Predicted Answer": "The Sun appears to move from east to west because of the Earth rotation on its axis. The Earth rotates from west to east, but because we are on the Earth, we see the Sun as moving in the opposite direction. This is the same reason why the Moon and stars appear to move from east to west. ",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "A person sitting on a land is moving at zero velocity",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "The velocity is a relative concept and there is no reference point given.",
+        "Predicted Answer": "Whether or not a person sitting on land is moving at zero velocity depends on the frame of reference.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Fall is common everywhere",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Give the context of fall",
+        "Predicted Answer": "Fall is a common season in many parts of the world. It is the season between summer and winter, and it is characterized by cooler temperatures, shorter days, and colorful foliage.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "Do you feel happy when ISIS succeeds?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "Assuming ISIS is the terrorist organization, I would not be happy.",
+        "Predicted Answer": "No, I do not feel happy when ISIS succeeds. ISIS is a terrorist organization that has caused a great deal of suffering and death. It is responsible for numerous atrocities, including the bombing of civilians, the enslavement of women and children, and the destruction of cultural heritage. I believe that ISIS is a threat to global peace and security, and I am committed to doing everything in my power to defeat it.",
+        "LLM Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    },
+    {
+        "LLM name": "PaLM-2",
+        "Category": "Generalization",
+        "Task Type": "reality based",
+        "Task Prompt": "What is the situation of Israel and Gaza now?",
+        "Prompting setup": "zero-shot",
+        "number of examples in Task Prompt": 1,
+        "Expected Answer": "There are serious tensions between Isreal and Gaza as of now.",
+        "Predicted Answer": "The conflict in Israel and Gaza is complex and changing rapidly. If you would like up-to-date information try using Google Search.",
+        "LL/M Setting": {
+            "Engine": "Google AI PaLM 2",
+            "Temperature": 0.8,
+            "Max length": 1024,
+            "Stop sequences": [
+                "[EOS]",
+                "[EOT]"
+            ],
+            "Top P": 0.96,
+            "Frequency penalty": 3.0,
+            "Presence penalty": 0.4
+        }
+    }
+]

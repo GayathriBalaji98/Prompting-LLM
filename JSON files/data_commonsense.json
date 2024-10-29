@@ -1,0 +1,1232 @@
+[
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "is there a possible way for a person to be both my paternal and maternal uncle",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Blended families ",
+    "Predicted Answer": "No, it is not possible for a person to be both your paternal and maternal uncle. The terms \"paternal\" and \"maternal\" are used to distinguish between the father's side of the family (paternal) and the mother's side of the family (maternal).",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "is there a possible way for a person to be both my paternal and maternal uncle",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Blended families ",
+    "Predicted Answer": "It is impossible for a person to be biologically your paternal and maternal uncle. However, it is possible for a person to be both your uncle and half-uncle. This could happen if one of your parents remarried and their new spouse had a sibling. In this case, the sibling would be your step-uncle or aunt and also the half-sibling of your biological parent, making them your half-uncle or aunt. Another way for someone to be both your uncle and half-uncle would be if your parents were first cousins. Their shared sibling would be both your uncle and half-uncle through your parents.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "if my maternal grandmother and my paternal grandfather got married and gave birth to Jack. Additionally, my mother and father got married and gave birth to me. Therefore, Jack is my maternal and paternal uncle at the same time. Is there a possible way that a person's sister's kid and brother's kid be the same individual?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Not possible",
+    "Predicted Answer": "In a typical family, a person's sister's child and brother's child are different individuals. However, in the unique scenario you described with Jack, who is both the child of your maternal grandmother and paternal grandfather, he could be considered both your sister's child and brother's child because he shares a mother with you and a father with you.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "if my maternal grandmother and my paternal grandfather got married and gave birth to Jack. Additionally, my mother and father got married and gave birth to me. Therefore, Jack is my maternal and paternal uncle at the same time. Is there a possible way that a person's sister's kid and brother's kid be the same individual?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Not possible",
+    "Predicted Answer": "Yes, it is possible for a person's sister's kid and brother's kid to be the same individual. This would occur if the person's sister and brother are half-siblings, meaning they share only one parent. In this case, their children would be first cousins, and they could also be siblings if they are born to the same parent.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "My maternal grandfather and paternal grandmother got married and gave birth to a child named Jack. I was born to my mother and father who were both married. Jack is my maternal uncle because he is the son of my maternal grandmother. He is also my paternal uncle because he is the son of my paternal grandfather. I am curious to know how Jack can be both my maternal and paternal uncle. How is Jack able to be both my maternal and paternal uncle?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Not possible",
+    "Predicted Answer": "In the scenario you described, Jack is both your maternal and paternal uncle because he is the child of your maternal grandfather and paternal grandmother. This makes him related to you on both sides of your family: **Maternal Uncle:** Jack is your maternal uncle because he is the son of your maternal grandfather. **Paternal Uncle:** Jack is also your paternal uncle because he is the son of your paternal grandmother. So, the key here is that Jack's parents are from different sides of your family \u2013 one from your mother's side (maternal grandfather) and one from your father's side (paternal grandmother), allowing him to be both your maternal and paternal uncle.\n\n",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "My maternal grandfather and paternal grandmother got married and gave birth to a child named Jack. I was born to my mother and father who were both married. Jack is my maternal uncle because he is the son of my maternal grandmother. He is also my paternal uncle because he is the son of my paternal grandfather. I am curious to know how Jack can be both my maternal and paternal uncle. How is Jack able to be both my maternal and paternal uncle?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Not possible",
+    "Predicted Answer": "Jack is able to be both my maternal and paternal uncle because my maternal grandfather and paternal grandmother got married. This means that Jack is the son of both my maternal grandmother and paternal grandfather.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "Our task is unscrambling words. Example: \"dideld\" Answer:",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Diddle",
+    "Predicted Answer": "The scrambled word \"dideld\" can be unscrambled to form the word \"diddle.\"",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "Our task is unscrambling words. Example: \"dideld\" Answer:",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Diddle",
+    "Predicted Answer": "The unscrambled word for \"dideld\" is \"deltoid\".",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "Our task is unscrambling words. Example 1: \"gtrae\" Answer: \"great\" Example 2: \"oet\" Answer: \"toe\" Example 3: \"dideld\" Answer:",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Diddle",
+    "Predicted Answer": "The scrambled word \"dideld\" can be unscrambled to form the word \"diddle.\"",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "Our task is unscrambling words. Example 1: \"gtrae\" Answer: \"great\" Example 2: \"oet\" Answer: \"toe\" Example 3: \"dideld\" Answer:",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Diddle",
+    "Predicted Answer": "The unscrambled word for \"dideld\" is \"deltoid\".",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "What is a type of musical instrument that is often played with a bow? Violin! What is a type of game that is often played with a ball? Baseball! What is a type of liquid that is often used to quench thirst?",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Water",
+    "Predicted Answer": "The answer to \"What is a type of liquid that is often used to quench thirst?\" is \"Water.\"",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "What is a type of musical instrument that is often played with a bow? Violin! What is a type of game that is often played with a ball? Baseball! What is a type of liquid that is often used to quench thirst?",
+    "Task Type": "Unscrambling words",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Water",
+    "Predicted Answer": "The type of liquid that is often used to quench thirst is water.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "It takes 2 hours to dry out a pair of jeans if I hang it on an infinitely long horizontal bar on Mars. I have 20 pairs of jeans. How much time will it take to dry all of them?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "2 hours",
+    "Predicted Answer": "The time it takes to dry a pair of jeans is not affected by the number of jeans you have. If it takes 2 hours to dry one pair of jeans, it will also take 2 hours to dry all 20 pairs. Each pair dries independently of the others, so you don't need to sum the times. Therefore, it will still take 2 hours to dry all 20 pairs of jeans.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "It takes 2 hours to dry out a pair of jeans if I hang it on an infinitely long horizontal bar on Mars. I have 20 pairs of jeans. How much time will it take to dry all of them?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "2 hours",
+    "Predicted Answer": "It will take 40 hours to dry all of your jeans on Mars. This is because drying time is directly proportional to the number of pairs of jeans being dried. So, if it takes 2 hours to dry one pair of jeans, it will take 2 x 20 = 40 hours to dry 20 pairs of jeans.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If it takes 5 minutes to bake one cookie, how long will it take to bake 8 cookies?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "40 minutes ",
+    "Predicted Answer": "If it takes 5 minutes to bake one cookie, it will take 40 minutes to bake 8 cookies. (5 minutes per cookie * 8 cookies = 40 minutes)",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If it takes 5 minutes to bake one cookie, how long will it take to bake 8 cookies?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "40 minutes ",
+    "Predicted Answer": "It will take 40 minutes to bake 8 cookies. This is because baking time is directly proportional to the number of cookies being baked. So, if it takes 5 minutes to bake one cookie, it will take 5 x 8 = 40 minutes to bake 8 cookies.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If a recipe requires 30 minutes of preparation time and 45 minutes of baking time, how long will it take to make a dish from start to finish?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "75 minutes ",
+    "Predicted Answer": "So, it will take 75 minutes to make the dish from start to finish.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If a recipe requires 30 minutes of preparation time and 45 minutes of baking time, how long will it take to make a dish from start to finish?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "75 minutes ",
+    "Predicted Answer": "It will take 75 minutes to make a dish from start to finish if a recipe requires 30 minutes of preparation time and 45 minutes of baking time.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "What should you do if you encounter a red traffic light?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Wait for the signal to turn green and move ",
+    "Predicted Answer": "If you encounter a red traffic light, you should come to a complete stop and wait for the light to turn green before proceeding. It indicates that you must not continue driving in that direction until the signal changes.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "What should you do if you encounter a red traffic light?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Wait for the signal to turn green and move ",
+    "Predicted Answer": "If you encounter a red traffic light, come to a complete stop at the stop line or crosswalk. Wait for the light to turn green before proceeding.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "When you're feeling too warm, what's a common action you might take to cool down?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Turn on the heater.",
+    "Predicted Answer": "When you're feeling too warm, a common action to cool down is to find shade or move to a cooler environment. Additionally, you might consider removing excess layers of clothing, drinking a cold beverage, or using a fan or air conditioning if available.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "When you're feeling too warm, what's a common action you might take to cool down?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Turn on the heater.",
+    "Predicted Answer": "When you're feeling too warm, your body is trying to regulate its temperature. One way it does this is by sweating. Sweating helps to cool your body by evaporating from your skin. However, if you're sweating a lot, it's important to replenish your fluids by drinking cool liquids. You can also try taking a cool shower or bath to quickly cool down your body. If you're outdoors, try seeking shade or wearing loose-fitting clothing. Wearing a hat can also help to keep your head cool.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're cooking and the recipe calls for preheating the oven, what's the next step after setting the temperature? Why is preheating important in cooking?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Let it preheat for 10 minutes or as mentioned in the recipe. Preheating ensures that the dish cooks evenly on all sides.",
+    "Predicted Answer": "After setting the oven temperature for preheating, the next step is to wait until the oven reaches that temperature before placing the food inside. Preheating is important because it ensures even cooking, proper texture, and browning, as well as accurate cooking times and food safety.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're cooking and the recipe calls for preheating the oven, what's the next step after setting the temperature? Why is preheating important in cooking?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Let it preheat for 10 minutes or as mentioned in the recipe. Preheating ensures that the dish cooks evenly on all sides.",
+    "Predicted Answer": "Preheating the oven is a crucial step in many cooking recipes to ensure consistent cooking, enhance flavor through the Maillard reaction, promote food safety, and shorten cooking time. So, the next time you're following a recipe, make sure to preheat your oven for optimal results.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "What should you do if you accidentally knock over a glass of water on a friend's table?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Apologize and ask if they need any help",
+    "Predicted Answer": "If you accidentally knock over a glass of water on a friend's table, you should quickly apologize, offer to help clean up the spill, and, if needed, ask if there's anything you can do to make amends for the accident.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "What should you do if you accidentally knock over a glass of water on a friend's table?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Apologize and ask if they need any help",
+    "Predicted Answer": "If you accidentally knock over a glass of water on a friend's table, the first thing you should do is apologize sincerely. Accidents happen, but owning up to your mistake and expressing regret shows your friend that you care. Next, assess the damage and offer to help clean up the mess. If any items on the table were damaged by the spill, offer to replace them. Finally, learn from the experience and be more careful in the future. Accidents happen, but the way you handle them reflects your character. By being apologetic, helpful, and responsible, you can maintain a positive friendship despite this mishap.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're feeling overwhelmed with tasks, what's a common strategy to manage your time? How does effective time management contribute to productivity? ",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Try to plan tasks well ahead of time. ",
+    "Predicted Answer": "**Example:** When overwhelmed with tasks, a common time management strategy involves creating a to-do list and prioritizing tasks. Breaking them into manageable steps helps maintain focus. Effective time management is crucial for productivity, ensuring tasks are completed efficiently, minimizing stress, and promoting a healthy work-life balance.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're feeling overwhelmed with tasks, what's a common strategy to manage your time? How does effective time management contribute to productivity? ",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Try to plan tasks well ahead of time. ",
+    "Predicted Answer": "When feeling overwhelmed with tasks, creating a to-do list, prioritizing tasks, breaking down large tasks, setting realistic deadlines, scheduling time, avoiding multitasking, taking breaks, delegating tasks, learning to say no, rewarding yourself, and reducing stress can help you effectively manage your time and improve productivity.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're planning to go for a run in the morning, what might be a sensible thing to do the night before? How does this preparation contribute to a smoother morning run?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Choose clothes and shoes you are going to wear. Organize anhything else you will take with you. It keps your mind a lot calmer in the morning by having a positive mindset. ",
+    "Predicted Answer": "The night before planning to go for a run in the morning, it's sensible to prepare your running gear and lay it out. This includes selecting appropriate clothing, ensuring you have your running shoes, and organizing any accessories you might need, such as a water bottle or fitness tracker. This simple preparation contributes to a smoother morning run in several ways. Firstly, it saves valuable time by eliminating the need to search for or gather your running essentials, allowing for a more efficient start to your day. Secondly, it reduces stress and decision-making in the morning, creating a more seamless transition from waking up to engaging in your exercise routine. Lastly, having everything ready the night before helps set a positive mindset, making it easier to commit to and enjoy your morning run.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If you're planning to go for a run in the morning, what might be a sensible thing to do the night before? How does this preparation contribute to a smoother morning run?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Choose clothes and shoes you are going to wear. Organize anhything else you will take with you. It keps your mind a lot calmer in the morning by having a positive mindset. ",
+    "Predicted Answer": "Planning for a morning run the night before can significantly enhance your experience. Lay out your running gear, plan your route, pack your hydration and nutrition, set out your running shoes, eat a balanced dinner, and get adequate sleep. These steps will help you wake up feeling refreshed and ready to tackle your morning run with confidence.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "What do you use to connect with people without talking or texting?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "You can keep an eye contact",
+    "Predicted Answer": "To connect with people without talking or texting, you can simply send them mental telepathy signals using your pet goldfish as a psychic conduit.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "What do you use to connect with people without talking or texting?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "You can keep an eye contact",
+    "Predicted Answer": "In the realm of connecting with others, while telepathy, animal magnetism, psychic abilities, voodoo, and magic capture our imagination, they remain unsubstantiated by scientific evidence. These concepts fall into the realm of pseudoscience, lacking empirical support for their existence.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "It's a chilly winter day. What do you put on to keep your hands warm? It is a winter attire",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Gloves",
+    "Predicted Answer": "Tiny, hand-knit sweaters for each finger.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "It's a chilly winter day. What do you put on to keep your hands warm? It is a winter attire",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Gloves",
+    "Predicted Answer": "Gloves, Mittens, Hand warmers, Heated gloves, Thermals, Long sleeves, Pocket warmers",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "How do you cool down your computer when it's overheating?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Ensure proper ventilation",
+    "Predicted Answer": "Give it a nice, relaxing vacation to the Arctic.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "How do you cool down your computer when it's overheating?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Ensure proper ventilation",
+    "Predicted Answer": "Overheating can pose a significant threat to your computer's performance and longevity. To effectively cool down your overheating computer, ensure proper ventilation by placing it on a hard, flat surface away from obstructions. Regularly clean the vents and fans to remove accumulated dust and debris that can hinder airflow. Monitor CPU and GPU temperatures using software like HWMonitor to identify potential overheating issues. Optimize software settings to minimize their impact on system resources. If overheating persists, consider upgrading cooling components such as fans or heat sinks. Protect your computer from external heat sources like sunlight, radiators, or heating vents. In severe overheating cases, underclocking the CPU or GPU can provide temporary relief. Additionally, external cooling pads for laptops can effectively draw heat away from the base, preventing internal components from overheating.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "In a typical family, what is the relationship between a person's sister and their father?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Daughter",
+    "Predicted Answer": "Cousin",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "In a typical family, what is the relationship between a person's sister and their father?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Daughter",
+    "Predicted Answer": "In a typical family, a person's sister and their father have a relationship of aunt and niece/nephew.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "It's your father's sister. What do you call her?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Aunt",
+    "Predicted Answer": "Aunt",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "It's your father's sister. What do you call her?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Aunt",
+    "Predicted Answer": "Aunt",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "You're organizing a surprise birthday party for your sibling. What steps might you take to keep the surprise intact and create a memorable celebration?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Careful planning, strategic misdirection",
+    "Predicted Answer": "For the surprise birthday party, I'd hire a marching band to announce their age with a grand parade through the neighborhood. Who needs secrecy when you can make it a spectacle, right?",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "You're organizing a surprise birthday party for your sibling. What steps might you take to keep the surprise intact and create a memorable celebration?",
+    "Task Type": "Family Relations",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Careful planning, strategic misdirection",
+    "Predicted Answer": "Organizing a surprise birthday party for your sibling requires careful planning, strategic misdirection, and a touch of personalization to create a memorable celebration. From choosing a suitable date and venue to incorporating personalized touches and capturing the special moments, these steps will help you orchestrate a surprise that will surely bring joy and laughter to your sibling's special day.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "How long does it typically take to bake a batch of cookies in the oven?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Around 12 to 15 minutes ",
+    "Predicted Answer": "Around 10 to 15 minutes, depending on the recipe and desired level of doneness.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "How long does it typically take to bake a batch of cookies in the oven?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "Around 12 to 15 minutes ",
+    "Predicted Answer": "The baking time for cookies typically ranges from 8 to 12 minutes, depending on the size and type of cookies, the oven temperature, and the altitude. Here's a general guideline for baking times:",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "How much time does it generally take to boil a pot of water on the stove?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Around 4 to 8 minutes given that itis not a large quantity",
+    "Predicted Answer": "Around 5 to 10 minutes, depending on the altitude and the desired temperature.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "How much time does it generally take to boil a pot of water on the stove?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "Around 4 to 8 minutes given that itis not a large quantity",
+    "Predicted Answer": "Typically, it takes about 5-8 minutes to boil a full pot of water on the stove, depending on a few factors.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "How long does it usually take to mow an average-sized lawn?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "20 to 30 minutes ",
+    "Predicted Answer": "On average, it takes about 30 minutes to an hour, depending on the size of the lawn and the type of mower used.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "How long does it usually take to mow an average-sized lawn?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "20 to 30 minutes ",
+    "Predicted Answer": "It usually taken around 30 to 60 minutes to mow an average sized lawn.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "For a usual commute to work using public transportation, how long might it take someone to reach their destination?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "No particular answer ",
+    "Predicted Answer": "On average, around 30 to 45 minutes, considering factors like distance, mode of transportation, and city traffic.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "For a usual commute to work using public transportation, how long might it take someone to reach their destination?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "No particular answer ",
+    "Predicted Answer": "There's no single answer for a \"usual\" public transportation commute time, as it can vary significantly depending on the city, transit system, and specifics of someone's trip. However, here are some general estimates:",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "When preparing instant noodles, how long does it usually take for them to cook in hot water?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "4 to 5 minutes",
+    "Predicted Answer": "Typically, about 2 to 4 minutes, following the instructions on the packaging.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "When preparing instant noodles, how long does it usually take for them to cook in hot water?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "4 to 5 minutes",
+    "Predicted Answer": "Typically, instant noodles take 3 to 4 minutes.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "You're hosting a family barbecue in your backyard. What might be your chain of thoughts as you plan and organize the event?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Check quest list, plan meals, ensure the ambiance is setup well.",
+    "Predicted Answer": "First, I'd consider the guest list, ensuring it includes family and friends who enjoy outdoor gatherings. Then, I'd think about the menu, deciding on a variety of grilled items to suit different preferences. Next, I'd plan the setup, arranging seating and creating a cozy ambiance with outdoor lights. Considering the weather, I might have a backup plan for sudden changes. To keep everyone entertained, I'd think about games and activities, making sure there's something for all ages. Lastly, I'd double-check supplies, ensuring I have enough charcoal, utensils, and, of course, marshmallows for roasting. Overall, my chain of thoughts revolves around creating a welcoming and enjoyable experience for everyone.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "You're hosting a family barbecue in your backyard. What might be your chain of thoughts as you plan and organize the event?",
+    "Task Type": "Time Taken for a task",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "Check quest list, plan meals, ensure the ambiance is setup well.",
+    "Predicted Answer": "Planning a family barbecue involves deciding on the guest list, menu items, supplies for grilling/serving the food and drinks, setting up the backyard area with seating and decorations, preparing the grill, managing the cooking so there's a steady stream of food, and most importantly, having fun with loved ones while safely bringing everyone together.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "If you have a bowl with six apples, and you take away four, how many apples do you have?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "two apples will be left",
+    "Predicted Answer": "You have four apples. When you take four apples from the bowl, those are the apples you now have.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "If you have a bowl with six apples, and you take away four, how many apples do you have?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Zero Shot",
+    "Expected Answer": "two apples will be left",
+    "Predicted Answer": "If you start with a bowl that has 6 apples, and you take away 4 apples, then you are left with 6 - 4 = 2 apples.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": "You wake up to find your car battery dead. What might be your logical chain of thoughts to troubleshoot the situation?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "First, I'd check if any lights or electronics were left on, potentially draining the battery. If that's not the case, I'd consider if extreme weather conditions could be a factor. Assuming it's not an environmental issue, I'd think about the age of the battery and whether it might need replacing. Finally, if none of these seem likely, I'd consider seeking assistance from a professional mechanic or roadside service to diagnose and fix the issue.",
+    "Predicted Answer": "Well, obviously, if the car battery is dead, the best solution is to throw a surprise birthday party for the car. Maybe some balloons and a cake will revive it!",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": "You wake up to find your car battery dead. What might be your logical chain of thoughts to troubleshoot the situation?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Few Shot",
+    "Expected Answer": "First, I'd check if any lights or electronics were left on, potentially draining the battery. If that's not the case, I'd consider if extreme weather conditions could be a factor. Assuming it's not an environmental issue, I'd think about the age of the battery and whether it might need replacing. Finally, if none of these seem likely, I'd consider seeking assistance from a professional mechanic or roadside service to diagnose and fix the issue.",
+    "Predicted Answer": "Upon finding a dead battery, I would first check the tightness and corrosion levels of the battery terminal connections to other cables. I'd then check the battery charge level with a voltmeter, try jump starting the car, check any accessories that might drain the battery, and inspect the alternator belt tension. If those basic steps don't reveal the issue, I would take the car to an auto shop to test whether the battery needs replacement or the alternator is no longer charging the battery sufficiently while driving. I would also consider any recent extreme temperature exposure as a factor accelerating a dying battery\u2019s demise. The goal is to methodically evaluate simple issues before determining if replacement is needed.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Commonsense",
+    "Task Prompt": " You've accidentally locked yourself out of your house. What might be your logical chain of thoughts as you figure out a solution?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "First, I'd assess if there's another way to enter, like an open window or a spare key hidden somewhere. If not, I'd consider reaching out to a family member or neighbor who might have a spare key. If all else fails, I'd think about calling a locksmith or checking if I have any tools that could help with the lock. Throughout the process, I'd stay calm and methodical, ensuring I explore each option systematically until I find a solution.",
+    "Predicted Answer": "In such a situation, I would first check for any open windows or alternative entry points. If that doesn't work, I'd contact a family member or a neighbor who might have a spare key. If all else fails, I'd consider calling a locksmith or checking for any tools I might have to safely attempt unlocking the door. The key is to stay calm and approach the problem methodically, exploring practical solutions before resorting to more complex ones.",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Commonsense",
+    "Task Prompt": " You've accidentally locked yourself out of your house. What might be your logical chain of thoughts as you figure out a solution?",
+    "Task Type": "Logical thinking",
+    "Prompting Setup": "Chain of thoughts ",
+    "Expected Answer": "First, I'd assess if there's another way to enter, like an open window or a spare key hidden somewhere. If not, I'd consider reaching out to a family member or neighbor who might have a spare key. If all else fails, I'd think about calling a locksmith or checking if I have any tools that could help with the lock. Throughout the process, I'd stay calm and methodical, ensuring I explore each option systematically until I find a solution.",
+    "Predicted Answer": "I would methodically check every door and window trying to find one unlocked or force open, call anyone potentially inside and any friends/family with spare keys, look for any accessible hidden keys around the exterior, attempt to unlock a window myself carefully, call a professional locksmith if all else fails, and finally, set up new protocols like exterior key hooks to avoid future lockouts.",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  }
+]

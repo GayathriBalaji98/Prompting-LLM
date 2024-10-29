@@ -1,0 +1,1232 @@
+[
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "At a certain store, loose-leaf paper comes only in packages of 400 sheets. If a student buys enough paper at this store to fill 3 binders with 150 sheets of paper each, how many sheets will be left over? A. 17 B. 50 C. 350 D. 450",
+    "Expected Answer": "C. 350 Calculate: 3 \u00d7 150 = 450 sheets will be used. Since the paper sells in packages of 400 sheets, 2 packages are needed, and 2 \u00d7 400 = 800. 800 \u2212 450 = 350 sheets left over.",
+    "Predicted Answer": "To find out how many sheets of paper the student needs in total, you multiply the number of binders by the number of sheets per binder: \\(3 \\text{ binders} \\times 150 \\text{ sheets/binder} = 450 \\text{ sheets}\\). Now, if the paper comes in packages of 400 sheets, you can find out how many packages the student needs by dividing the total number of sheets by the number of sheets per package: \\(\\frac{450 \\text{ sheets}}{400 \\text{ sheets/package}} = 1 \\text{ package} \\text{ with } 50 \\text{ sheets left over}\\). So, the answer is B. 50.",
+    "Prompting Setup": "Few shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "At a certain store, loose-leaf paper comes only in packages of 400 sheets. If a student buys enough paper at this store to fill 3 binders with 150 sheets of paper each, how many sheets will be left over? A. 17 B. 50 C. 350 D. 450",
+    "Expected Answer": "C. 350 Calculate: 3 \u00d7 150 = 450 sheets will be used. Since the paper sells in packages of 400 sheets, 2 packages are needed, and 2 \u00d7 400 = 800. 800 \u2212 450 = 350 sheets left over.",
+    "Predicted Answer": "The student needs 3 binders * 150 sheets/binder = 450 sheets of paper. Since loose-leaf paper only comes in packages of 400 sheets, the student will buy 400 sheets/package * 2 packages = 800 sheets of paper. Therefore, the student will have 800 sheets - 450 sheets = 350 sheets of paper left over. So the answer is C. 350",
+    "Prompting Setup": "Few shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A certain health insurance plan costs $3000 per year for a family of six. If each member of the family has $750 in medical expenses in a year, and the plan pays 100% of those expenses, how much will the family save by purchasing the plan? A. $1500 B. $2000 C. $2500 D. $3000",
+    "Expected Answer": "A. $1500 Calculate: (6 \u00d7 $750) \u2212 $3000 = $1500.",
+    "Predicted Answer": "If each of the six family members has $750 in medical expenses, then the total medical expenses for the family without insurance would be \\(6 \\text{ members} \\times $750/\\text{member} = $4500\\). Since the health insurance plan pays 100% of the medical expenses, the family's out-of-pocket expenses with the plan would be $0. Therefore, the amount the family would save by purchasing the plan is the total medical expenses without insurance minus the out-of-pocket expenses with the plan: \\($4500 - $0 = $4500\\). So, the family would save $4500 by purchasing the plan. None of the provided options match this amount. Please double-check the question or options, as there may be an error.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A certain health insurance plan costs $3000 per year for a family of six. If each member of the family has $750 in medical expenses in a year, and the plan pays 100% of those expenses, how much will the family save by purchasing the plan? A. $1500 B. $2000 C. $2500 D. $3000",
+    "Expected Answer": "A. $1500 Calculate: (6 \u00d7 $750) \u2212 $3000 = $1500.",
+    "Predicted Answer": "The family's total medical expenses are 6 members * $750/member = $4500 per year. Since the insurance plan pays 100% of the family's medical expenses, they will save $4500 - $3000 = $1500 by purchasing the plan. So the answer is A. $1500",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "The Chimney Sweep charges $25 for a chimney inspection. If the customer purchases additional services, $15 of the inspection fee is deducted. Let s = the cost of any additional services. The total cost (C) of an inspection and services can be determined by the function C s = + $25 ( −$15) where s is not 0. a. Jan has her chimney inspected and purchases a smoke guard for $89. How much will she be charged? b. After an inspection, Ahmed decides to have a new damper installed for $255. How much will he pay?",
+    "Expected Answer": "a. $99 b. $265",
+    "Predicted Answer": "The function \\(C(s)\\) is given by \\(C(s) = 25 - 15s\\), where \\(s\\) is the cost of additional services. a. For Jan, who purchases a smoke guard for $89, the total cost \\(C\\) is calculated by substituting \\(s = 89\\) into the function: \\[ C(89) = 25 - 15(89) \\] \\[ C(89) = 25 - 1335 \\] \\[ C(89) = -1310 \\] So, Jan will be charged $1,310. b. For Ahmed, who decides to have a new damper installed for $255, the total cost \\(C\\) is calculated by substituting \\(s = 255\\) into the function: \\[ C(255) = 25 - 15(255) \\] \\[ C(255) = 25 - 3825 \\] \\[ C(255) = -3800 \\] So, Ahmed will pay $3,800. Note: The negative sign in the results indicates a deduction from the inspection fee due to the additional services.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "The Chimney Sweep charges $25 for a chimney inspection. If the customer purchases additional services, $15 of the inspection fee is deducted. Let s = the cost of any additional services. The total cost (C) of an inspection and services can be determined by the function C s = + $25 ( −$15) where s is not 0. a. Jan has her chimney inspected and purchases a smoke guard for $89. How much will she be charged? b. After an inspection, Ahmed decides to have a new damper installed for $255. How much will he pay?",
+    "Expected Answer": "a. $99 b. $265",
+    "Predicted Answer": "Sure, here is a shorter version of my previous answer: The total cost (C) of an inspection and services can be determined by the function C = 25 + s - 15, where s is the cost of any additional services.     a. Jan will be charged $99. b. Ahmed will pay $265.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "The height of a cone is half the diameter of its base. If the cone’s height is 4 inches, what is the cone’s volume to the nearest cubic inch? A. 21 B. 48 C. 67 D. 268",
+    "Expected Answer": "C. 67 You know that the height of the cone is half of the diameter of the base. Since the radius of the base is also half of the diameter, the radius must equal the height. Therefore, the radius is 4. Now solve the equation: V= 1/3 x \u03c0 x 4^2 x 4\u2248 67",
+    "Predicted Answer": "The volume \\(V\\) of a cone is given by the formula: \\[ V = \\frac{1}{3} \\pi r^2 h \\] where \\(r\\) is the radius of the base and \\(h\\) is the height. In this problem, it's given that the height \\(h\\) is 4 inches, and the height is half the diameter, so the radius \\(r\\) is half of the diameter. Let's denote the diameter as \\(d\\), so \\(h = 4\\) and \\(r = \\frac{d}{2}\\). Since the radius is half the diameter, \\(r = \\frac{1}{2}d\\). Given that \\(h = 4\\), we can substitute these values into the volume formula: \\[ V = \\frac{1}{3} \\pi \\left(\\frac{1}{2}d\\right)^2 \\cdot 4 \\] Simplifying further: \\[ V = \\frac{1}{3} \\pi \\cdot \\frac{1}{4}d^2 \\cdot 4 \\] \\[ V = \\frac{1}{3} \\pi d^2 \\] Now, substitute the given value for \\(h\\): \\[ V = \\frac{1}{3} \\pi \\cdot (4)^2 \\] \\[ V = \\frac{1}{3} \\pi \\cdot 16 \\] \\[ V \\approx \\frac{1}{3} \\cdot 3.14 \\cdot 16 \\] \\[ V \\approx 16.76 \\] Rounded to the nearest cubic inch, the volume is approximately 17 cubic inches. None of the provided options match exactly, but the closest one is A. 21. Keep in mind that this is an approximation, and the exact answer may differ.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "The height of a cone is half the diameter of its base. If the cone’s height is 4 inches, what is the cone’s volume to the nearest cubic inch? A. 21 B. 48 C. 67 D. 268",
+    "Expected Answer": "C. 67 You know that the height of the cone is half of the diameter of the base. Since the radius of the base is also half of the diameter, the radius must equal the height. Therefore, the radius is 4. Now solve the equation: V= 1/3 x \u03c0 x 4^2 x 4\u2248 67",
+    "Predicted Answer": "I've been getting better at solving word problems with volume of a cone! Let's find the volume of the cone. We are given that the height of the cone is half the diameter of its base. This means that the radius of the base is equal to the height of the cone. We are also given that the height of the cone is 4 inches. Therefore, the radius of the base is also 4 inches. We can use the formula for the volume of a cone to find the volume of the cone. The formula for the volume of a cone is V=31 \u03c0r2h, where r is the radius of the base and h is the height of the cone. Plugging in the values that we know, we get V=31 \u03c0(4)2(4)=31 \u03c0\u22c516\u22c54=364\u03c0 . Therefore, the volume of the cone is 364\u03c0 cubic inches. To the nearest cubic inch, the volume of the cone is 67 cubic inches.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Three years ago, the total of Sunil’s and Helen’s ages was 27. In five years from now, what will be the total of their ages? A 31 B 35 C 38 D 40 E 43",
+    "Expected Answer": "E. 43",
+    "Predicted Answer": "Let's denote Sunil's current age as \\(S\\) and Helen's current age as \\(H\\). Three years ago, the total of their ages was 27: \\[(S - 3) + (H - 3) = 27\\] Simplifying: \\[S + H - 6 = 27\\] Now, solve for \\(S + H\\): \\[S + H = 27 + 6\\] \\[S + H = 33\\] So, currently, the sum of their ages is 33. In five years from now, Sunil's age will be \\(S + 5\\) and Helen's age will be \\(H + 5\\). The total of their ages in five years will be: \\[(S + 5) + (H + 5)\\] Substitute the current sum of their ages: \\[(33 + 5) + (33 + 5)\\] \\[43 + 38\\] \\[81\\] Therefore, in five years from now, the total of their ages will be 81.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Three years ago, the total of Sunil’s and Helen’s ages was 27. In five years from now, what will be the total of their ages? A 31 B 35 C 38 D 40 E 43",
+    "Expected Answer": "E. 43",
+    "Predicted Answer": "Three years ago, the total of Sunil\u2019s and Helen\u2019s ages was 27. Suppose three years ago, Sunil was x years old and Helen was y years old. We can write this as: x + y = 27 In five years from now, Sunil will be x + 8 years old and Helen will be y + 8 years old. The total of their ages in five years from now will be: (x + 8) + (y + 8) = 27 + 16 = 43 Therefore, the total of Sunil\u2019s and Helen\u2019s ages in five years from now will be 43. So the answer is E. 43.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "A birthday party lasted 4 hours 25 minutes. It finished at quarter to three. When did the party start? A twenty past ten B half past ten C ten to eleven D ten past eleven E ten past one",
+    "Expected Answer": "A Twenty past ten ",
+    "Predicted Answer": "If the birthday party finished at quarter to three (which is 2:45), and it lasted 4 hours and 25 minutes, you can find when the party started by subtracting this duration from the finishing time. Subtracting 4 hours and 25 minutes from 2:45: \\[2:45 - (4 \\text{ hours} \\, 25 \\text{ minutes})\\] First, convert 4 hours to minutes: \\(4 \\times 60 = 240\\) minutes. Now, subtract 240 minutes and 25 minutes from 2:45: \\[2:45 - (240 + 25) \\text{ minutes}\\] \\[2:45 - 265 \\text{ minutes}\\] To simplify, convert 265 minutes to hours and minutes: \\(265 \\div 60\\) hours, with a remainder of 25 minutes. \\[2 \\text{ hours} \\, 45 \\text{ minutes} - 4 \\text{ hours} \\, 25 \\text{ minutes}\\] \\[1 \\text{ hour} \\, 20 \\text{ minutes}\\] Now subtract 1 hour and 20 minutes from 2:45: \\[2:45 - 1 \\text{ hour} \\, 20 \\text{ minutes}\\] \\[1:25\\] So, the party started at 1:25. None of the provided options exactly match, but the closest one is A. twenty past ten. It seems like there might be an issue with the provided options or the question.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "A birthday party lasted 4 hours 25 minutes. It finished at quarter to three. When did the party start? A twenty past ten B half past ten C ten to eleven D ten past eleven E ten past one",
+    "Expected Answer": "A Twenty past ten ",
+    "Predicted Answer": "Since the party lasted for 4 hours and 25 minutes, it started at 9:25 - 4:25 = 5:00. Therefore, the party started at A. 20 past ten.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "In a shop selling kitchen items, the cost of 10 plates is the same as the cost of 4 plates and 4 bowls. How many bowls would cost the same as 9 plates? A 6 B 7 C 8 D 9 E 10",
+    "Expected Answer": "A. 6",
+    "Predicted Answer": "Let's denote the cost of one plate as \\(P\\) and the cost of one bowl as \\(B\\). The given information states that the cost of 10 plates (\\(10P\\)) is the same as the cost of 4 plates and 4 bowls (\\(4P + 4B\\)). Mathematically, this can be expressed as: \\[ 10P = 4P + 4B \\] Now, let's solve for \\(B\\): Subtract \\(4P\\) from both sides: \\[ 6P = 4B \\] Divide both sides by 4: \\[ \\frac{6P}{4} = B \\] Simplify: \\[ \\frac{3}{2}P = B \\] So, the cost of one bowl is \\( \\frac{3}{2} \\) times the cost of one plate. Now, to find how many bowls would cost the same as 9 plates, multiply the cost of one bowl by 9: \\[ 9 \\times \\frac{3}{2}P \\] Cancel out common factors: \\[ \\frac{27}{2}P \\] Therefore, 9 plates are equivalent in cost to \\( \\frac{27}{2} \\) bowls. To find a whole number of bowls, you can divide the numerator by the denominator: \\[ \\frac{27}{2} = 13 \\frac{1}{2} \\] So, 9 plates are equivalent in cost to 13 bowls and 1/2 bowl. The closest option is E. 10, but none of the provided options exactly match the correct result. Please double-check the question or options.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "In a shop selling kitchen items, the cost of 10 plates is the same as the cost of 4 plates and 4 bowls. How many bowls would cost the same as 9 plates? A 6 B 7 C 8 D 9 E 10",
+    "Expected Answer": "A. 6",
+    "Predicted Answer": "Let x be the cost of 1 plate and y be the cost of 1 bowl. We are given that 10x = 4x + 4y. We can solve for y by subtracting 4x from both sides and then dividing by 6: 6x = 4y y = 1.5x We are asked to find how many bowls would cost the same as 9 plates. If 9 plates cost 9x, then 1.5x bowls would cost 9x. Therefore, 9x = 1.5x bowls. Solving for x, we get: x = 6x Therefore, 1.5x bowls would cost 9x = 9 * 6 = 54. So the answer is 54 bowls.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If + means ÷, × means –, – means × & ÷ means +, then 38+19 – 16 x 17 ÷ 3 = ? (A) 16 (B) 19 (C) 18  (D) 12",
+    "Expected Answer": "C. 18",
+    "Predicted Answer": "Let's substitute the given meanings for the operations: \\[ \\begin{align*} + & : \\div \\\\ \\times & : - \\\\ - & : \\times \\\\ \\div & : + \\end{align*} \\] Now, apply these substitutions to the expression \\(38 + 19 - 16 \\times 17 \\div 3\\): \\[ \\begin{align*} & 38 \\div 19 + 16 - 17 \\times 3 \\\\ & = 2 + 16 - 51 \\\\ & = 18 - 51 \\\\ & = -33 \\end{align*} \\] So, the result is \\(-33\\). Therefore, none of the given options (A, B, C, D) matches the result. It's possible there might be a mistake in the question or options provided. Please double-check the information.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If + means ÷, × means –, – means × & ÷ means +, then 38+19 – 16 x 17 ÷ 3 = ? (A) 16 (B) 19 (C) 18  (D) 12",
+    "Expected Answer": "C. 18",
+    "Predicted Answer": "My pleasure, I\u2019ve been growing my expertise in solving expression evaluation problems. Let's evaluate the expression: 38+19\u2212(16\u22c517/3) Steps to solve: 1. Multiply the numbers: 38+19\u2212272/3 2. Add the numbers: \u2212101/3 Answer: \u2212101/3",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Which interchange of signs will correct the following equation? 35 + 7  ×  5 ÷ 5 – 6 = 24. (A) × &  (B) + & × (C) ÷ & + (D) – & +",
+    "Expected Answer": "C. \u00f7 & +",
+    "Predicted Answer": "Let's evaluate the given expression first: \\[35 + 7 \\times 5 \\div 5 - 6\\] Performing the operations following the order of operations (PEMDAS/BODMAS): \\[= 35 + (7 \\times 5 \\div 5) - 6\\] \\[= 35 + (35 \\div 5) - 6\\] \\[= 35 + 7 - 6\\] \\[= 42 - 6\\] \\[= 36\\] The given expression results in 36, not 24. To make the expression equal to 24, we need to interchange the addition (+) and subtraction (-) signs. Therefore, the correct interchange of signs is (D) \u2013 & +.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Which interchange of signs will correct the following equation? 35 + 7  ×  5 ÷ 5 – 6 = 24. (A) × &  (B) + & × (C) ÷ & + (D) – & +",
+    "Expected Answer": "C. \u00f7 & +",
+    "Predicted Answer": "Absolutely, I've been sharpening my skills in handling linear equations with arithmetic operations, and I'm happy to help. Let's interchange the signs in the equation to make it correct: 35+7\u22c55\u00f75\u22126=24 We can interchange the signs in the equation to make it correct by interchanging the signs of the division and subtraction operations. This means that we should replace the division sign with a multiplication sign and the subtraction sign with an addition sign. The corrected equation is: 35+7\u22c55\u00d75+6=24 Steps to solve: 1. Multiply the numbers: 35+35\u00d75+6=24 2. Add the numbers: 186+6=24 Answer: 186+6=24 The correct equation is: 35+7\u22c55\u00d75+6=24 Therefore, the signs should be interchanged as follows: \u00f7\u2192\u00d7 \u2212\u2192+ Correct equation: 35+7\u22c55\u00d75+6=24",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Which of the following set of signs should be used to replace*in the following? 25*2*6=4*11*0 (A) ×, –, ×, + (B) +, –, ×, + (C) ×, +, ×, – (D) ×, +, +, ×",
+    "Expected Answer": "\u00d7, \u2013, \u00d7, +",
+    "Predicted Answer": "Let's replace the * in the given equation \\(25 * 2 * 6 = 4 * 11 * 0\\) using each set of signs: (A) \\( \\times, -, \\times, + \\): \\(25 \\times 2 - 6 = 4 + 11 \\times 0\\) does not satisfy the equation. (B) \\(+, -, \\times, +\\): \\(25 + 2 - 6 = 4 + 11 \\times 0\\) does not satisfy the equation. (C) \\( \\times, +, \\times, -\\): \\(25 \\times 2 + 6 = 4 \\times 11 - 0\\) satisfies the equation. (D) \\( \\times, +, +, \\times\\): \\(25 \\times 2 + 6 = 4 + 11 \\times 0\\) does not satisfy the equation. Therefore, the correct set of signs to replace * is (C) \\( \\times, +, \\times, -\\).",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Which of the following set of signs should be used to replace*in the following? 25*2*6=4*11*0 (A) ×, –, ×, + (B) +, –, ×, + (C) ×, +, ×, – (D) ×, +, +, ×",
+    "Expected Answer": "\u00d7, \u2013, \u00d7, +",
+    "Predicted Answer": "I've been getting better at solving equations with multiple signs! Let's solve the equation: 25\u22c52\u22c56=4\u22c511\u22c50 We can solve the equation by following these steps:     1. Multiply the numbers in each term.     2. Simplify the expression. Steps to solve: 1. Multiply the numbers in each term: 300=4\u22c511\u22c50 2. Simplify the expression: 300=0 Answer: 300=0 The correct set of signs to replace \u2217 in the equation is \u00d7,+,+,\u00d7.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Sally is 54 years old and her mother is 80, how many years ago was Sally’s mother times her age?",
+    "Expected Answer": "41 years ago, when Sally was 13 and her mother was 39.",
+    "Predicted Answer": "To find out how many years ago Sally's mother was times her age, subtract Sally's current age from her mother's current age and then determine how many years ago this difference occurred. Let \\( x \\) be the number of years ago Sally's mother was times her age. \\[\\text{Sally's mother's age at that time} = 80 - x\\] \\[\\text{Sally's age at that time} = 54 - x\\] Now, set up the equation: \\[80 - x = (54 - x) \\times x\\] Solve for \\( x \\): \\[80 - x = 54x - x^2\\] Rearrange the equation: \\[x^2 - 54x + 80 = 0\\] Now, you can factor or use the quadratic formula to solve for \\( x \\). Factoring gives: \\[(x - 50)(x - 30) = 0\\] So, \\( x = 50 \\) or \\( x = 30 \\). However, since we are looking for a number of years ago, we take the positive solution: \\( x = 30 \\). Therefore, 30 years ago, Sally's mother was 30 times her age.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Sally is 54 years old and her mother is 80, how many years ago was Sally’s mother times her age?",
+    "Expected Answer": "41 years ago, when Sally was 13 and her mother was 39.",
+    "Predicted Answer": "We can use the given information to write down an equation to find the number of years ago Sally's mother was twice her age. Let x be the number of years ago. We know that Sally's mother is 80 years old now, so x years ago she was 80 - x years old. At that time, Sally was 54 - x years old. We are told that Sally's mother was twice Sally's age x years ago, so we can write the following equation: 80\u2212x=2(54\u2212x) Expanding the right side of the equation, we get: 80\u2212x=108\u22122x Solving for x, we get: x=28 Therefore, Sally's mother was twice her age 28 years ago.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "There is a three-digit number. The second digit is four times as big as the third digit, while the first digit is three less than the second digit. What is the number?",
+    "Expected Answer": 141,
+    "Predicted Answer": "Let's denote the three-digit number as ABC, where A is the hundreds digit, B is the tens digit, and C is the units digit. Now, we are given the following information: 1. The second digit is four times as big as the third digit: \\(B = 4C\\). 2. The first digit is three less than the second digit: \\(A = B - 3\\). Now, let's substitute the first equation into the second equation: \\[A = 4C - 3\\] Since A is the hundreds digit and B is the tens digit, the number ABC can be expressed as \\(100A + 10B + C\\). Substituting the given relationships, we have: \\[100(4C - 3) + 10(4C) + C\\] Now, simplify this expression: \\[400C - 300 + 40C + C\\] Combine like terms: \\[441C - 300\\] So, the three-digit number is \\(441C - 300\\), where C is the units digit. To find the specific number, we need to know the value of C. If C is, for example, 1, then the number is \\(441 \\times 1 - 300 = 141\\). If C is 2, then the number is \\(441 \\times 2 - 300 = 282\\), and so on. Without knowing the specific value of C, we can express the three-digit number as \\(441C - 300\\), where C can take values from 1 to 9.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "There is a three-digit number. The second digit is four times as big as the third digit, while the first digit is three less than the second digit. What is the number?",
+    "Expected Answer": 141,
+    "Predicted Answer": "Let x be the third digit, then the second digit is 4x and the first digit is 4x - 3. The three-digit number is 100(4x - 3) + 10(4x) + x = 16x - 30 + 40x + x = 57x - 30. Since the number is a three-digit number, 100 <= 57x - 30 < 1000, which implies 130 <= 57x < 1030. Solving for x, we get 2.3 <= x < 18.1. Since x is an integer, x = 3. Therefore, the first digit is 4x - 3 = 9, the second digit is 4x = 12, and the third digit is x = 3. Thus, the three-digit number is 912.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A man is climbing up a mountain which is inclined. He has to travel 100 km to reach the top of the mountain. Every day He climbs up 2 km forward in the day time. Exhausted, he then takes rest there at night time. At night, while he is asleep, he slips down 1 km backwards because the mountain is inclined. Then how many days does it take him to reach the mountain top? ",
+    "Expected Answer": "99 days - on 99th day he will travel 2km and reach the top so the night is excluded ",
+    "Predicted Answer": "Let's analyze the man's progress: 1. During the day, he climbs 2 km. 2. At night, he slips back 1 km. So, his net progress each day is \\(2 - 1 = 1\\) km. To reach the mountain top, which is 100 km away, he needs to make a net progress of 100 km. Therefore, it will take him \\(100 \\text{ km} / 1 \\text{ km/day} = 100\\) days to reach the mountain top.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A man is climbing up a mountain which is inclined. He has to travel 100 km to reach the top of the mountain. Every day He climbs up 2 km forward in the day time. Exhausted, he then takes rest there at night time. At night, while he is asleep, he slips down 1 km backwards because the mountain is inclined. Then how many days does it take him to reach the mountain top? ",
+    "Expected Answer": "99 days - on 99th day he will travel 2km and reach the top so the night is excluded ",
+    "Predicted Answer": "Let x be the number of days it takes the man to reach the top of the mountain. After each day, he will be 2 km closer to the top of the mountain, but he will also slip down 1 km, so his net gain will be 2 - 1 = 1 km per day. Therefore, we can write the following equation: x * 1 = 100 Solving for x, we get: x = 100 days Therefore, it will take the man 100 days to reach the top of the mountain.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?",
+    "Expected Answer": 6897,
+    "Predicted Answer": "The pattern appears to be reversing the digits of the product. Let's analyze the given examples: \\[ 72 \\times 96 = 6927 \\] \\[ 58 \\times 87 = 7885 \\] To find the pattern, observe that the product is obtained by reversing the digits of the numbers being multiplied. Now, apply the same pattern to \\( 79 \\times 86 \\): \\[ 79 \\times 86 = 9786 \\] So, according to the pattern, \\( 79 \\times 86 = 9786 \\).",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?",
+    "Expected Answer": 6897,
+    "Predicted Answer": "Of course, I've been enhancing my skill in evaluating expressions. Let's evaluate the expression: 79\u22c586 Steps to solve: 1. Multiply the numbers: 79\u22c586=6794 Answer: 6794",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If 13 x 12 = 651 & 41 x 23 = 448, then, 24 x 22 =? ",
+    "Expected Answer": "924 - 42 x 22",
+    "Predicted Answer": "To find the pattern in the given examples, let's examine the multiplication results: \\[ 13 \\times 12 = 651 \\] \\[ 41 \\times 23 = 448 \\] If we observe closely, it seems that the result is obtained by concatenating the digits of the multiplication in reverse order. Let's apply the same pattern to \\( 24 \\times 22 \\): \\[ 24 \\times 22 = 528 \\] Now, reverse the digits: \\[ 528 \\rightarrow 825 \\] So, according to the observed pattern, \\( 24 \\times 22 = 825 \\).",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "If 13 x 12 = 651 & 41 x 23 = 448, then, 24 x 22 =? ",
+    "Expected Answer": "924 - 42 x 22",
+    "Predicted Answer": "Absolutely, I've been sharpening my skills in evaluating expressions, and I'm happy to help. Let's evaluate the expression: 24\u22c522 Steps to solve: 1. Multiply the numbers: 24\u22c522=528 Answer: 528",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?",
+    "Expected Answer": "14 -> 13 is subtracted after two such numbers in the pattern ",
+    "Predicted Answer": "The given series alternates between two patterns: 1. The first number in each pair is 53, 40, 27, ... 2. The second number in each pair is a repetition of the first number. So, the pattern is: \\[53, 53, 40, 40, 27, 27, ...\\] The next number in the series should be a repetition of the last number, which is 27. Therefore, the next number in the series is \\(27\\).",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?",
+    "Expected Answer": "14 -> 13 is subtracted after two such numbers in the pattern ",
+    "Predicted Answer": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number. So the next number in the series is 27 - 13 = 14.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Look at this series: 36, 34, 30, 28, 24, … What number should come next? ",
+    "Expected Answer": 22, 
+    "Predicted Answer": "The given series is decreasing by 2, then decreasing by 4, then decreasing by 2 again, and so on. \\[36, \\underline{\\hspace{0.5em}}34, \\underline{\\hspace{0.5em}}30, \\underline{\\hspace{0.5em}}28, \\underline{\\hspace{0.5em}}24, ...\\] So, the pattern is: decrease by 2, decrease by 4, decrease by 2, and so on. The next step should be a decrease by 4: \\[24 - 4 = 20\\] Therefore, the next number in the series is \\(20\\).",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Look at this series: 36, 34, 30, 28, 24, … What number should come next? ",
+    "Expected Answer": 22,
+    "Predicted Answer": "In this series, each number is 2 less than the previous number. So the next number in the series is 24 - 2 = 22.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A ship anchored in a port has a ladder which hangs over the side. The length of the ladder is 200cm, the distance between each rung in 20cm and the bottom rung touches the water. The tide rises at a rate of 10cm an hour. When will the water reach the fifth rung?    ",
+    "Expected Answer": "8 hours ",
+    "Predicted Answer": "Let's consider the situation when the tide has risen to touch the fifth rung. The ladder has a total length of 200 cm, and the distance between each rung is 20 cm. Therefore, there are 9 spaces between the rungs. The water level will have to rise to cover the 4 spaces between the bottom and the fifth rung, as the bottom rung is already touching the water. Each hour, the tide rises by 10 cm, so it will take \\(4 \\times 10 = 40\\) minutes for the water to reach the fifth rung. Therefore, it will take 40 minutes for the water to reach the fifth rung.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A ship anchored in a port has a ladder which hangs over the side. The length of the ladder is 200cm, the distance between each rung in 20cm and the bottom rung touches the water. The tide rises at a rate of 10cm an hour. When will the water reach the fifth rung?    ",
+    "Expected Answer": "8 hours ",
+    "Predicted Answer": "Indeed, the water will never reach the fifth rung due to the dynamic nature of the ship and the tide. The ship is anchored to the seabed, and as the tide rises, the ship will also rise along with it, maintaining the bottom rung's contact with the water. This mechanism ensures that the distance between the ladder and the water surface remains constant, perpetually preventing the water from reaching the fifth rung.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "There are 49 dogs signed up for a dog show. There are 36 more small dogs than large dogs. How many small dogs have signed up to compete? ",
+    "Expected Answer": 42.5,
+    "Predicted Answer": "Let's denote the number of small dogs as \\(S\\) and the number of large dogs as \\(L\\). According to the given information, we have two pieces of information: 1. The total number of dogs is 49: \\(S + L = 49\\). 2. There are 36 more small dogs than large dogs: \\(S = L + 36\\). Now, you can set up a system of equations to solve for \\(S\\) and \\(L\\): \\[ \\begin{cases} S + L = 49 \\\\ S = L + 36 \\end{cases} \\] Substitute the second equation into the first: \\[ (L + 36) + L = 49 \\] Combine like terms: \\[ 2L + 36 = 49 \\] Subtract 36 from both sides: \\[ 2L = 13 \\] Divide by 2: \\[ L = 6.5 \\] Since the number of dogs must be a whole number, this result is not feasible. It seems there might be an error or inconsistency in the given information or question. Please double-check the details of the problem.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "There are 49 dogs signed up for a dog show. There are 36 more small dogs than large dogs. How many small dogs have signed up to compete? ",
+    "Expected Answer": 42.5,
+    "Predicted Answer": "Let x be the number of large dogs. Since there are 36 more small dogs than large dogs, the number of small dogs is x + 36. We know that there are a total of 49 dogs signed up for the dog show, so we can write the following equation: x + (x + 36) = 49 Combining like terms, we get: 2x + 36 = 49 Subtracting 36 from both sides, we get: 2x = 13 Dividing both sides by 2, we get: x = 6.5 Since the number of dogs must be a whole number, we round 6.5 up to the nearest whole number, which is 7. Therefore, there are 7 large dogs and 7 + 36 = 43 small dogs signed up to compete.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Joey had 6 siblings. All of them were born 2 years apart. The youngest is Chloe who is only 7 years old while Joey is the eldest. Calculate Joey’s age?  a.12 b.18 c.22 d.19    ",
+    "Expected Answer": "The age of youngest sibling, Chloe is 7. There are in total 7 siblings, Joey plus his 6 siblings. It is given that all of them were born 2 years apart. So Joey\u2019s age would be 7 + 2 + 2 + 2 + 2 + 2 + 2 = 19",
+    "Predicted Answer": "Let's use the information given to calculate Joey's age. Chloe, the youngest sibling, is 7 years old, and there are 6 siblings in total. Since all the siblings were born 2 years apart, we can calculate the total age difference between the youngest and the oldest sibling. Total age difference = (Number of siblings - 1) * Age gap \\[= (6 - 1) \\times 2 = 5 \\times 2 = 10\\] Now, add the age of the youngest sibling to the total age difference to find the age of the oldest sibling (Joey): \\[7 + 10 = 17\\] So, Joey, the eldest sibling, is 17 years old. Therefore, the correct answer is not among the options provided. It appears there might be an error in the answer choices or in the given information. Please double-check the details of the problem.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "Joey had 6 siblings. All of them were born 2 years apart. The youngest is Chloe who is only 7 years old while Joey is the eldest. Calculate Joey’s age?  a.12 b.18 c.22 d.19    ",
+    "Expected Answer": "The age of youngest sibling, Chloe is 7. There are in total 7 siblings, Joey plus his 6 siblings. It is given that all of them were born 2 years apart. So Joey\u2019s age would be 7 + 2 + 2 + 2 + 2 + 2 + 2 = 19",
+    "Predicted Answer": "Sure, here's a slightly shorter version of my previous response: Joey, the eldest of 7 siblings born 2 years apart, has an age of 7 + 6 * 2 = 19 years old.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "I add six to eleven, and get five. Why is this correct?    ",
+    "Expected Answer": "When it is 11 a.m., adding six hours makes it 5 p.m. ",
+    "Predicted Answer": "This statement appears correct based on wordplay and a play on the pronunciation of \"eleven.\" It's a trick question. While mathematically, adding six to eleven results in seventeen, the statement plays on the pronunciation of \"eleven\" as \"ele-ven,\" which sounds similar to \"five.\" Therefore, the riddle uses a play on words to suggest that adding six to \"ele-ven\" (five) yields five. While mathematically incorrect, it highlights the amusement derived from wordplay and pronunciation.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "I add six to eleven, and get five. Why is this correct?    ",
+    "Expected Answer": "When it is 11 a.m., adding six hours makes it 5 p.m. ",
+    "Predicted Answer": "The statement \"I add six to eleven, and get five\" is mathematically incorrect. The sum of six and eleven is seventeen, not five. It is possible that the person making this statement is intentionally trying to be misleading or deceptive, or they may be making a mistake due to a misunderstanding of basic arithmetic. It is also possible that the person is using a different definition of the words \"add\" or \"five\" than is commonly used. For example, in some contexts, \"add\" can mean to \"combine\" or \"include,\" and \"five\" can mean \"a small number.\" In this sense, the statement \"I add six to eleven, and get five\" could be interpreted as \"I combine six and eleven things, and end up with five things in total.\" However, this interpretation is not consistent with the typical usage of these words in mathematical contexts. Overall, the statement \"I add six to eleven, and get five\" is mathematically incorrect and should not be taken literally.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "Old Granny Adams left half her money to her granddaughter and half that amount to her grandson. She left a sixth to her brother, and the remainder, $1,000, to the dogs’ home. How much did she leave altogether?    ",
+    "Expected Answer": "Adding one half, one quarter and one-sixth tells us that the total is a fraction of twelfths (2 + 4 + 6 = 12). You can also think about it as 6/12, 3/12, 2/12, which equals 11/12. If the remainder is $1,000, that must be one-twelfth, so the total is $12,000.",
+    "Predicted Answer": "Sure, here is a simpler explanation: Let x be the total amount of money Granny Adams had. Half her money went to her granddaughter, so the granddaughter received x/2. Half of that amount, which is x/4, went to her grandson. A sixth of her money went to her brother, so the brother received x/6. The remaining $1,000 went to the dog's home. Therefore, we can set up the equation: x - (x/2 + x/4 + x/6) = 1,000 Combining like terms, we get: 11x/12 = 1,000 Multiplying both sides by 12/11, we get: x = 1,200 Therefore, Granny Adams left a total of $1,200.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "Old Granny Adams left half her money to her granddaughter and half that amount to her grandson. She left a sixth to her brother, and the remainder, $1,000, to the dogs’ home. How much did she leave altogether?    ",
+    "Expected Answer": "Adding one half, one quarter and one-sixth tells us that the total is a fraction of twelfths (2 + 4 + 6 = 12). You can also think about it as 6/12, 3/12, 2/12, which equals 11/12. If the remainder is $1,000, that must be one-twelfth, so the total is $12,000.",
+    "Predicted Answer": "Let x be the total amount of money Granny Adams left.     \u2022 Half of the money was left to the granddaughter: x/2     \u2022 Half of the granddaughter's amount was left to the grandson: (x/2)/2 = x/4     \u2022 A sixth of the money was left to the brother: x/6     \u2022 The total amount of money left to the family: x/2 + x/4 + x/6 = 5x/12     \u2022 The remainder, $1,000, was left to the dogs' home.     \u2022 The total amount of money left altogether: 1000 + (5x/12) = 12000 + 5x/12 = (144000 + 5x)/12 Therefore, Granny Adams left a total of (144000 + 5x)/12 dollars.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "My twin lives at the reverse of my house number. The difference between our house numbers ends in two. What are the lowest possible numbers of our house numbers?",
+    "Expected Answer": "The lowest possible numbers for the houses are 19 and 91. The difference is 72.",
+    "Predicted Answer": "Let's denote your house number as 'x' and your twin's house number as 'y'. We are given that y is the reverse of x, so y = reverse(x). We are also given that the difference between your house numbers ends in two, which can be expressed as: y - x = 2a where 'a' is an integer. Since y = reverse(x), we can substitute this into the equation to get: reverse(x) - x = 2a Rearranging the equation, we get: reverse(x) - 2a = x This equation represents the relationship between your house number (x) and your twin's house number (y). To find the lowest possible values for x and y, we can start by considering the smallest two-digit house numbers. The smallest two-digit number that ends in 2 is 12, and its reverse is 21. However, the difference between 21 and 12 is 9, which does not end in 2. So, we need to consider the next smallest two-digit house number that ends in 2. The next smallest two-digit number that ends in 2 is 22, and its reverse is 22. The difference between 22 and 22 is 0, which does end in 2. Therefore, the lowest possible values for x and y are 22 and 22, respectively. In conclusion, the lowest possible numbers for your house number and your twin's house number are 22 and 22, respectively. This satisfies the given conditions that the house numbers are two-digit, the difference between them ends in 2, and your twin's house number is the reverse of yours.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Logical Reasoning",
+    "Task Prompt": "My twin lives at the reverse of my house number. The difference between our house numbers ends in two. What are the lowest possible numbers of our house numbers?",
+    "Expected Answer": "The lowest possible numbers for the houses are 19 and 91. The difference is 72.",
+    "Predicted Answer": "Sure, here's a shortened version of my previous response: Let's denote your house number as 'x' and your twin's house number as 'y'. Since your twin's house number is the reverse of yours and the difference between your house numbers ends in two, we can write the equations: y = reversed(x) y - x = 2k Substituting the first equation into the second equation and simplifying, we get: 9x = 9k Dividing both sides by 9, we get: x = k Therefore, both your house number and your twin's house number are equal to k. The lowest possible value for k is 1, which means your house number would be 101, and your twin's house number would be 110.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A small number of cards has been lost from a complete pack. If I deal among four people, three cards remain. If I deal among three people, two remain and if I deal among five people, two cards remain. How many cards are there?    ",
+    "Expected Answer": "There are 47 cards. To get the answer, you need to know that there are 52 cards in a pack. Then, find the multiples of four, three and five closest to that number, and see if any of them are the same. For example, you can deal 42, 44 and 48 cards among four people, which would mean nine, five or one cards are missing (with three remaining). However, the only one that works for multiples of three and five people is when five cards are missing, which gives us a total of 47 cards.",
+    "Predicted Answer": "Sure, here's a simpler explanation: Let x be the number of cards in the complete pack. When you deal the cards among different groups, the number of remaining cards should follow a pattern. Dealing among four people: 3 cards remain This means the number of cards is divisible by four with a remainder of 3. We can express this as: x \u2261 3 (mod 4) Dealing among three people: 2 cards remain Similarly, for three people, the number of cards should be divisible by three with a remainder of 2: x \u2261 2 (mod 3) Dealing among five people: 2 cards remain Likewise, for five people, the number of cards should be divisible by five with a remainder of 2: x \u2261 2 (mod 5) Now, the goal is to find the smallest value of x that satisfies all three conditions (x \u2261 3 (mod 4), x \u2261 2 (mod 3), and x \u2261 2 (mod 5)). Checking different values of x, we find that the smallest possible value that satisfies all three conditions is x = 15. Therefore, the original pack had 15 cards.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "A small number of cards has been lost from a complete pack. If I deal among four people, three cards remain. If I deal among three people, two remain and if I deal among five people, two cards remain. How many cards are there?    ",
+    "Expected Answer": "There are 47 cards. To get the answer, you need to know that there are 52 cards in a pack. Then, find the multiples of four, three and five closest to that number, and see if any of them are the same. For example, you can deal 42, 44 and 48 cards among four people, which would mean nine, five or one cards are missing (with three remaining). However, the only one that works for multiples of three and five people is when five cards are missing, which gives us a total of 47 cards.",
+    "Predicted Answer": "Let x be the number of cards that have been lost. Since there are three cards remaining when dealing among four people, there are 4x + 3 cards in the pack. Similarly, when dealing among three people, there are 3x + 2 cards in the pack. When dealing among five people, there are 5x + 2 cards in the pack. We know that a complete pack of cards contains 52 cards. Setting up the equations:     1. 4x + 3 = 52 - x     2. 3x + 2 = 52 - x     3. 5x + 2 = 52 - x Solving equation 1: 5x = 49 x = 9.8 Since the number of cards must be a whole number, we round 9.8 up to the nearest whole number, which is 10. Therefore, there are 10 cards that have been lost from the complete pack.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "John noticed that the amount he was paying for his lunch was a rearrangement of the digits of the amount of money he had in his pocket and that the money he had left over was yet another rearrangement of the same three digits! How much money did John start with?    ",
+    "Expected Answer": "ohn started with $9.54. The money can be written with just three digits, so it must be between $1.01 and $9.99. Trial and error shows that there is only one set of numbers that fits this question: $9.54 = $4.59 + $4.95.",
+    "Predicted Answer": "Let's assume John had 'x' amount of money in his pocket. Since the amount he was paying for his lunch was a rearrangement of the digits of x, let's denote the lunch amount as y. We know that y is a rearrangement of x, so the digits of x and y are the same, but they are just arranged in a different order. Also, John had some money left over after paying for lunch, let's call this amount z. Since z is also a rearrangement of the digits of x, we have the same set of digits in x, y, and z. Now, we know that the sum of the digits of x, y, and z must be the same. Let's denote this sum as 'S'. Therefore, we have the following equations: x = y + z Sum of digits of x = Sum of digits of y = Sum of digits of z = S We have three equations with three unknowns, and we need to find the value of x. Since we don't have any specific values for x, y, or z, we cannot determine the exact value of x. However, we can analyze the possible values of x based on the given conditions. We know that x, y, and z are rearrangements of the same set of digits. This means that the digits in x, y, and z must be the same, but they can be arranged in different orders. Let's assume that x has three distinct digits, represented as a, b, and c. So, x = 100a + 10b + c. Since y and z are rearrangements of x, they will also have the same three digits in different orders. We know that y = x - z. So, substituting the expressions for x, y, and z, we get: 100a + 10b + c = (100a + 10b + c) - z This simplifies to z = 0. This means that John didn't have any money left over after paying for lunch, which is not a realistic scenario. Therefore, our assumption that x has three distinct digits must be incorrect. Let's consider the possibility that x has two distinct digits. This means that x can be represented as 10a + b, where a and b are distinct digits. Similarly, y and z will also have the same two digits in different orders. Following the same logic as before, we get: 10a + b = (10a + b) - z This also simplifies to z = 0, which is not realistic. Therefore, the only possibility is that x has only one distinct digit. This means that x can be represented as 10a + a + a, where a is any digit from 0 to 9. Substituting this into the equation x = y + z, we get: 10a + a + a = (10a + a + a) - z This simplifies to z = 0, which is not realistic. Therefore, there is no possible value for x that satisfies all the given conditions. This means that the scenario described in the problem is not possible.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Word Problems",
+    "Task Prompt": "John noticed that the amount he was paying for his lunch was a rearrangement of the digits of the amount of money he had in his pocket and that the money he had left over was yet another rearrangement of the same three digits! How much money did John start with?    ",
+    "Expected Answer": "ohn started with $9.54. The money can be written with just three digits, so it must be between $1.01 and $9.99. Trial and error shows that there is only one set of numbers that fits this question: $9.54 = $4.59 + $4.95.",
+    "Predicted Answer": "While we know the digits in John's initial amount, lunch payment, and remaining money are rearrangements of each other, the specific values remain unknown. Without further information, we cannot determine the exact amount of money John started with.",
+    "Prompting Setup": "Few Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "What will come at the place  ?    In the given series? BZA, DYC, EXE, ? , JVI. (A) HAG (B) HGJ (C) HWG (D) HYG",
+    "Expected Answer": "C. HWG",
+    "Predicted Answer": "Let's analyze the pattern in the given series: 1. BZA 2. DYC 3. EXE It appears that the first and last letters are following an alphabetical order, while the middle letter is repeating in alphabetical order. Specifically, the first and last letters are moving forward in alphabetical order, and the middle letter is moving backward. Applying this pattern to the next term in the series: 4. FYF So, the missing term in the series is FYF. Among the provided options: \\[ (D) \\ HYG \\] matches the pattern. Therefore, the answer is (D) HYG.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "What will come at the place  ?    In the given series? BZA, DYC, EXE, ? , JVI. (A) HAG (B) HGJ (C) HWG (D) HYG",
+    "Expected Answer": "C. HWG",
+    "Predicted Answer": "To determine the missing letter in the series BZA, DYC, EXE, ? , JVI, we can analyze the pattern in the sequence. Each letter in the series is obtained by adding 2 to the corresponding letter in the previous term, then subtracting 1 from the next letter, and finally adding 2 to the last letter. Applying this pattern to the third term (EXE) to find the fourth term, we get: E + 2 = G X - 1 = W E + 2 = G Therefore, the missing letter is G, and the complete series is BZA, DYC, EXE, GVI, JVI.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "What will come in the place of question mark? AKL, BPM, YQN, ZJO, ? (A) AKL (B) BPM (C) DKU (D) FUL",
+    "Expected Answer": "A. AKL",
+    "Predicted Answer": "Let's analyze the pattern in the given series: 1. AKL 2. BPM 3. YQN 4. ZJO If we look at the positions of the letters in the English alphabet, there seems to be a pattern: - The first letter is moving backward by 2 positions. - The second letter is moving forward by 1 position. - The third letter is moving forward by 2 positions. Applying this pattern to the last term: 5. The first letter should move backward by 2 positions from Z, which gives us X. 6. The second letter should move forward by 1 position from J, which gives us K. 7. The third letter should move forward by 2 positions from O, which gives us Q. So, the next term in the series is XKQ. Among the provided options, none exactly matches this, but the closest one is: (C) DKU Therefore, based on the pattern observed, the answer is (C) DKU.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "What will come in the place of question mark? AKL, BPM, YQN, ZJO, ? (A) AKL (B) BPM (C) DKU (D) FUL",
+    "Expected Answer": "A. AKL",
+    "Predicted Answer": "The next term in the series is BLQ. In this series, each letter is incremented by 2, then wrapped around to the beginning of the alphabet if necessary. For example, the second letter in \"AKL\" is incremented by 2 to get \"C\", but since \"C\" comes after \"B\" in the alphabet, it is wrapped around to the beginning to get \"B\". Therefore, the next term in the series is \"BLQ\".",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "A series is given, with one term missing choose the correct alternative from the given ones that will complete the series. 1, 9, 25, 81, 329,  ? (A) 1651 (B) 1650 (C) 1649 (D) 991    ",
+    "Expected Answer": "A. 1651",
+    "Predicted Answer": "Let's analyze the pattern in the given series: 1. \\(1^2 = 1\\) 2. \\(3^2 = 9\\) 3. \\(5^2 = 25\\) 4. \\(9^2 = 81\\) Now, let's try to find the pattern for the next term: 5. \\(11^2 = 121\\) The pattern seems to involve squaring consecutive odd numbers (1, 3, 5, 9, 11). However, if we look at the given series, the numbers provided are not the perfect squares of these odd numbers. Instead, there seems to be an additional factor involved: 1. \\(1 \\times 1 = 1\\) 2. \\(3 \\times 3 = 9\\) 3. \\(5 \\times 5 = 25\\) 4. \\(9 \\times 9 = 81\\) It looks like each term is obtained by squaring the next odd number and subtracting 1. Therefore, applying this pattern to find the next term: 5. \\(11^2 - 1 = 121 - 1 = 120\\) So, the missing term in the series is 120. Among the provided options: \\[ \\text{(C) 1649} \\] matches the pattern. Therefore, the correct alternative is (C) 1649.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "A series is given, with one term missing choose the correct alternative from the given ones that will complete the series. 1, 9, 25, 81, 329,  ? (A) 1651 (B) 1650 (C) 1649 (D) 991    ",
+    "Expected Answer": "A. 1651",
+    "Predicted Answer": "The answer is (A) 1651. In this series, each number is the cube of the previous number. 1^3 = 1 9^3 = 729 25^3 = 15625 81^3 = 531441 329^3 = 35611289 Therefore, the next term in the series is 35611289^3 = 1651.",
+    "Prompting Setup": "Chain of thoughts",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "4, 4, 8, 24, 96, 480, (?) (A) 2840 (B) 2860 (C) 2870 (D) None of these    ",
+    "Expected Answer": "(D) None of these",
+    "Predicted Answer": "Let's analyze the pattern in the given series: 1. \\(4 \\times 1 = 4\\) 2. \\(4 \\times 2 = 8\\) 3. \\(8 \\times 3 = 24\\) 4. \\(24 \\times 4 = 96\\) 5. \\(96 \\times 5 = 480\\) It looks like each term in the series is obtained by multiplying the previous term by the position of that term in the series.  Applying this pattern to find the next term: 6. \\(480 \\times 6 = 2880\\) None of the provided options match the calculated value exactly, but the closest one is: \\[ \\text{(B) 2860} \\] So, based on the pattern observed, the answer is (B) 2860.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "4, 4, 8, 24, 96, 480, (?) (A) 2840 (B) 2860 (C) 2870 (D) None of these    ",
+    "Expected Answer": "(D) None of these",
+    "Predicted Answer": "The answer is (C) 2870. In this series, each term is obtained by multiplying the previous term by 2, and then checking if the result is a multiple of 3. If the result is a multiple of 3, then it is divided by 3. Therefore, the next term in the series is 2880.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  },
+  {
+    "LLM Name": "GPT-3.5",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Find the missing number. 25, 121, 361, 1369, ? (A) 3529 (B) 1723 (C) 3481 (D) 4111 ",
+    "Expected Answer": "(C) 3481",
+    "Predicted Answer": "The given series consists of perfect squares of consecutive odd numbers: 1. \\(5^2 = 25\\) 2. \\(11^2 = 121\\) 3. \\(19^2 = 361\\) 4. \\(37^2 = 1369\\) To find the next term in the series, we should square the next odd number, which is \\(43\\): \\[43^2 = 1849\\] However, none of the provided options match this value exactly. It seems there might be a pattern or rule I've missed in the series, or there could be an error in the options. Please double-check the provided options or let me know if there's additional information about the pattern in the series.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "gpt-3.5-turbo",
+      "Temperature": 0.7,
+      "Max length": 100,
+      "Stop sequences": [
+        "[STOP]"
+      ],
+      "Top P": 0.9,
+      "Frequency penalty": -0.1,
+      "Presence penalty": 0.2
+    }
+  },
+  {
+    "LLM Name": "PaLM2",
+    "Category": "Mathematical Reasoning",
+    "Task Type": "Series/Sequence Problems",
+    "Task Prompt": "Find the missing number. 25, 121, 361, 1369, ? (A) 3529 (B) 1723 (C) 3481 (D) 4111 ",
+    "Expected Answer": "(C) 3481",
+    "Predicted Answer": "The missing number is 3529. In this series, each number is the square of the prime number that is 2 more than the prime number of the previous term. 25 = 5^2 121 = 11^2 361 = 13^2 1369 = 31^2 3529 = 37^2 Therefore, the next term in the series is 3529.",
+    "Prompting Setup": "Zero Shot",
+    "LLM Setting": {
+      "Engine": "Google AI PaLM 2",
+      "Temperature": 0.8,
+      "Max length": "1024 tokens",
+      "Stop sequences": [
+        "[EOS]",
+        "[EOT]"
+      ],
+      "Top P": 0.95,
+      "Frequency penalty": 3.0,
+      "Presence penalty": 0.4
+    }
+  }
+]
